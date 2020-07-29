@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Problem](README.md#problem)
 1. [Approach](README.md#approach)
-1. [Running Instructions](README.md#running instructions)
+1. [Running_Instructions](README.md#running_instructions)
 
 ## Problem
 The federal government provides a way for consumers to file complaints against companies regarding different financial products, such as payment problems with a credit card or debt collection tactics. This challenge will be about identifying the number of complaints filed and how they're spread across different companies. 
