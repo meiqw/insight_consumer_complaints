@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Problem](README.md#problem)
 1. [Approach](README.md#approach)
-1. [Run instructions](README.md#run instructions)
+1. [Running Instructions](README.md#running instructions)
 
 ## Problem
 The federal government provides a way for consumers to file complaints against companies regarding different financial products, such as payment problems with a credit card or debt collection tactics. This challenge will be about identifying the number of complaints filed and how they're spread across different companies. 
@@ -17,6 +17,6 @@ The file is mainly consists of two functions, the read_csv function reads into t
 
 Under insight_testsuite directory, I added two more tests test_2 and test_3 with some sample data from the complaints.csv posted on the GitHub.
 
-## Run instructions
+## Running Instructions
 The 'run.sh' shell script executes my code and outputs the results to an output file report.csv under output directory.
 
