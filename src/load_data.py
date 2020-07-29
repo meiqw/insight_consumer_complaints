@@ -24,9 +24,6 @@ def write_csv(dict, filename):
         #fieldnames = ['product', 'year', 'total number of complaints', 'total number of companies', 'highest percentage of complaints against one company']
         #f_writer.writerow(fieldnames)
         for pro, v in sorted(dict.items()):
-            if ',' in pro:
-                if not pro.startswith('"') or not pro.endswith('"'):
-                    pro = '"' + pro + '"'
             for year, comps in sorted(v.items()):
                 total = sum(comps.values())
                 comp_total = len(comps)
@@ -40,5 +37,5 @@ if __name__ == '__main__':
     output = sys.argv[2]
     dict = read_csv(input)
     write_csv(dict, output)
-    #dict = read_csv('../insight_testsuite/test_2/input/complaints.csv')
-    #write_csv(dict, '../insight_testsuite/test_2/output/report.csv')
+    #dict = read_csv('../insight_testsuite/test_1/input/complaints.csv')
+    #write_csv(dict, '../insight_testsuite/test_1/output/report.csv')
